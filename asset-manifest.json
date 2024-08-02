@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Aarogya-Exercises/static/css/main.a363b5b8.css",
-    "main.js": "/Aarogya-Exercises/static/js/main.c0b0e0fe.js",
+    "main.js": "/Aarogya-Exercises/static/js/main.32210c09.js",
     "static/media/gym-girl.jpg": "/Aarogya-Exercises/static/media/gym-girl.9ab0b4d1defdeca2d657.jpg",
     "static/media/aarogya.png": "/Aarogya-Exercises/static/media/aarogya.0f7f1f9fdeef03e6f5e4.png",
     "static/media/down.svg": "/Aarogya-Exercises/static/media/down.cd7bcbf80e5d19bae7028857bcdbd79a.svg",
     "static/media/dumbbell.svg": "/Aarogya-Exercises/static/media/dumbbell.72767dbaadff52e3fe06e957572a4407.svg",
     "index.html": "/Aarogya-Exercises/index.html",
     "main.a363b5b8.css.map": "/Aarogya-Exercises/static/css/main.a363b5b8.css.map",
-    "main.c0b0e0fe.js.map": "/Aarogya-Exercises/static/js/main.c0b0e0fe.js.map"
+    "main.32210c09.js.map": "/Aarogya-Exercises/static/js/main.32210c09.js.map"
   },
   "entrypoints": [
     "static/css/main.a363b5b8.css",
-    "static/js/main.c0b0e0fe.js"
+    "static/js/main.32210c09.js"
   ]
 }
