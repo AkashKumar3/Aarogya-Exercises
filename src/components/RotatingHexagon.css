@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#first-div {
+    height: 1px;
+}
+
+.second {
+    height: 400vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+    width: 500px;
+    height: 300px;
+    display: none;
+}
+
+.container.visible {
+    display: block;
+ 
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.container.relative {
+    position: absolute;
+    top: auto;
+    bottom: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.hexagon {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    transition: transform 0.1s;
+ 
+}
+
+.hexagon .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    font-weight: 600;
+    color: #00ced1;
+    background-color: transparent;
+    backface-visibility: hidden;
+}
+
+.hexagon .face:nth-child(1) {
+    transform: rotateX(0deg) translateZ(150px);
+}
+
+.hexagon .face:nth-child(2) {
+    transform: rotateX(60deg) translateZ(150px);
+}
+
+.hexagon .face:nth-child(3) {
+    transform: rotateX(120deg) translateZ(150px);
+}
+
+.hexagon .face:nth-child(4) {
+    transform: rotateX(180deg) translateZ(150px);
+}
+
+.hexagon .face:nth-child(5) {
+    transform: rotateX(240deg) translateZ(150px);
+}
+
+.hexagon .face:nth-child(6) {
+    transform: rotateX(300deg) translateZ(150px);
+}
+
+#third-div {
+    height: 1px;
+    position: relative;
+}
+
+.down-arrow {
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ced1;
+    font-size: 25px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%) scale(1, 1);
+    transition: 0.3s all ease-in-out;
+}
+
+.downArrowImg{
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    top: 20%;
+    left: 20%;
+}
+
+.downArrowImg:hover{
+    scale: 1.2;
+    transition: 0.3s all ease-in-out;
+}
+
+.overdiv{
+    cursor: pointer;
+    position: relative;
+    top: -90px;
+    border: 2px solid #00ced1;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.overdiv:hover{
+    scale: 1.2;
+    border: 2px solid white;
+    background-color: #1b1919;
+    transition: 0.3s all ease-in-out;
+}
