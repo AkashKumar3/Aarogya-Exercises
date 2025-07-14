@@ -3,7 +3,6 @@ import { Box, Button, Stack, TextField } from '@mui/material';
 
 import { exerciseOptions, fetchData } from '../utils/fetchData';
 import HorizontalScrollbar from './HorizontalScrollbar';
-import RotatingHexagon from './RotatingHexagon';
 
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState('');
@@ -25,9 +24,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 
       const searchedExercises = exercisesData.filter(
         (exercise) => exercise.name.toLowerCase().includes(search)
-               || exercise.target.toLowerCase().includes(search)
-               || exercise.equipment.toLowerCase().includes(search)
-               || exercise.bodyPart.toLowerCase().includes(search),
+          || exercise.target.toLowerCase().includes(search)
+          || exercise.equipment.toLowerCase().includes(search)
+          || exercise.bodyPart.toLowerCase().includes(search),
       );
 
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
@@ -39,7 +38,6 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
-      <RotatingHexagon />
       <Box position="relative" mb="72px">
         <TextField
           height="76px"
