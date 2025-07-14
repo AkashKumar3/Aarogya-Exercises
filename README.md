@@ -1,2 +1,2 @@
-# Visit Site on :-  https://akashkumar3.github.io/Aarogya-Exercises/
+# Visit Site on :-  https://aarogya-exercises.onrender.com
 
