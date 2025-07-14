@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.094d4771.css",
-    "main.js": "/static/js/main.61d5a973.js",
-    "static/media/gym-girl.jpg": "/static/media/gym-girl.9ab0b4d1defdeca2d657.jpg",
-    "static/media/aarogya.png": "/static/media/aarogya.0f7f1f9fdeef03e6f5e4.png",
-    "static/media/dumbbell.svg": "/static/media/dumbbell.d74628a2c0fc93b66c1c22cbc400972c.svg",
-    "index.html": "/index.html",
-    "main.094d4771.css.map": "/static/css/main.094d4771.css.map",
-    "main.61d5a973.js.map": "/static/js/main.61d5a973.js.map"
+    "main.css": "/Aarogya-Exercises/static/css/main.094d4771.css",
+    "main.js": "/Aarogya-Exercises/static/js/main.055cc327.js",
+    "static/media/gym-girl.jpg": "/Aarogya-Exercises/static/media/gym-girl.9ab0b4d1defdeca2d657.jpg",
+    "static/media/aarogya.png": "/Aarogya-Exercises/static/media/aarogya.0f7f1f9fdeef03e6f5e4.png",
+    "static/media/dumbbell.svg": "/Aarogya-Exercises/static/media/dumbbell.d74628a2c0fc93b66c1c22cbc400972c.svg",
+    "index.html": "/Aarogya-Exercises/index.html",
+    "main.094d4771.css.map": "/Aarogya-Exercises/static/css/main.094d4771.css.map",
+    "main.055cc327.js.map": "/Aarogya-Exercises/static/js/main.055cc327.js.map"
   },
   "entrypoints": [
     "static/css/main.094d4771.css",
-    "static/js/main.61d5a973.js"
+    "static/js/main.055cc327.js"
   ]
 }
